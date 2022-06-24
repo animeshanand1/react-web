@@ -12,14 +12,14 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <Router>
-      <Navbar/>
+     { <Navbar/>}
     <div className="App">
       <Routes>
      
       <Route path="/Home" element={<Home />} />
-      <Route path='/services' component={Services} />
-      <Route path='/products' component={Products} />
-      <Route path='/sign-up' component={SignUp} />
+      <Route path='/services' element={<Services/>} />
+      <Route path='/products' element={<Products/>} />
+      <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
      
     </div>
