@@ -24,10 +24,11 @@ function Navbar() {
   window.addEventListener('resize',showButton);
   return (
     <>
-    <nav className='Navbar'>
+    <nav className='navbar'>
       <div className='navbar-container'>
         <Link to='/' className='navbar-logo'>
-          <h2>This is nav</h2>
+        TRVL
+            <i class='fab fa-typo3' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times': 'fas fa-bars'} />
