@@ -1,28 +1,45 @@
-import React from "react";
-import CardItem from "./CardItem";
-import "./Cards.css";
+import React from 'react';
+import './Cards.css';
+import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className="cards">
+    <div className='cards'>
       <h1>Check out these EPIC Destinations!</h1>
-      <div className="cards_container">
-        <div className="cards_wrapper">
-          <ul className="cards_items">
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
             <CardItem
-              src="https://images.unsplash.com/photo-1515463138280-67d1dcbf317f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3BsYXNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-              text="Explore the hidden waterfall deep
-              inside the Amazon Jungle"
-              label="Adventure"
-              path="/services"
+              src='images/img-9.jpg'
+              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              label='Adventure'
+              path='/services'
             />
-
             <CardItem
-              src="https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BsYXNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-              text="Explore the hidden waterfall deep
-              inside the Amazon Jungle"
-              label="Adventure"
-              path="/services"
+              src='images/img-2.jpg'
+              text='Travel through the Islands of Bali in a Private Cruise'
+              label='Luxury'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-3.jpg'
+              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              label='Mystery'
+              path='/services'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              text='Experience Football on Top of the Himilayan Mountains'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-8.jpg'
+              text='Ride through the Sahara Desert on a guided camel tour'
+              label='Adrenaline'
+              path='/sign-up'
             />
           </ul>
         </div>
